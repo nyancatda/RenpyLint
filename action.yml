@@ -1,0 +1,20 @@
+name: "Ren'Py Lint"
+author: "NyanCatda"
+description: "Lint Ren'Py projects"
+inputs:
+  sdk_version:
+    description: "Ren'Py SDK version"
+    default: "8.1.3"
+    required: true
+  project_path:
+    description: "Project folder path"
+    default: "."
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.sdk_version }}
+    - ${{ inputs.project_path }}
+branding:
+  color: "red"
+  icon: "check-square"
