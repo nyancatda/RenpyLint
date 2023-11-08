@@ -14,7 +14,7 @@ GitHub action script for linter testing the Ren'Py project
 - `project_path` Project folder path
 
 ## Cache
-The script will store the downloaded SDK in `/renpy-${sdk_version}-sdk`, and you can configure the cache yourself
+The script will store the downloaded SDK in `../renpy-${sdk_version}-sdk`, and you can configure the cache yourself
 
 ## Thank
 1. [ProjectAliceDev/renpy-lint-action](https://github.com/ProjectAliceDev/renpy-lint-action) Provides basic ideas
