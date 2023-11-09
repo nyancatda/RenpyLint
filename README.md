@@ -2,7 +2,7 @@
 GitHub action script for linter testing the Ren'Py project
 
 ## Use
-``` yarn
+``` yml
 - name: Lint
   uses: nyancatda/RenpyLint@main
   with:
